@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity"
+        android:textSize="180px"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/text1_1"
+        />
+
+    <TextView
+        android:id="@+id/text1_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12px"
+        android:text="Test voice commands : \n 1. Open submenu \n 2. Go back \n 3. Select icon $(number b/w 0 and 100)"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="36px"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@id/text1_1"
+        app:layout_constraintRight_toRightOf="@id/text1_1"
+        app:layout_constraintTop_toBottomOf="@id/text1_1" />
+
+    <TextView
+        android:id="@+id/text1_3"
+        android:layout_width="1200px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60px"
+        android:text="Make sure the voice UI foreground service is started before using the voice commands."
+        android:textAlignment="center"
+        android:textColor="#5A5A5A"
+        android:textSize="36px"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
