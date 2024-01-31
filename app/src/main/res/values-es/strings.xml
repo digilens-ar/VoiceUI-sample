@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Prueba de interfaz de usuario de voz</string>
+    <string name="activity">Actividad</string>
+    <string name="test_voice_commands">Comandos de voz de prueba : \n 1. tomar la foto \n 2. alternar cámara \n 3. establece el zoom en $(número entre uno y cien)</string>
+    <string name="warning_note">Asegúrese de que el servicio de primer plano de la interfaz de usuario de voz se haya iniciado antes de usar los comandos de voz.</string>
+</resources>

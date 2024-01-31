@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">VoiceUI_Test</string>
+    <string name="activity">Activity</string>
+    <string name="test_voice_commands">Test voice commands : \n 1. Take picture (EN), tomar la foto (ES) \n 2. Toggle camera (EN), alternar cámara (ES) \n 3. Set zoom to $(number b/w 0 and 100) (EN), \n     establece el zoom en $(número entre uno y cien) (ES)</string>
+    <string name="warning_note">Make sure the voice UI foreground service is started before using the voice commands.</string>
 </resources>
